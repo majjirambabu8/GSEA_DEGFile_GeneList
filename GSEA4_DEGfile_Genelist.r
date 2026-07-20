@@ -19,8 +19,8 @@ options(bitmapType = 'cairo')
 # ---------------------------------------------------------
 # 2. Read input files
 # ---------------------------------------------------------
-file1_path <- "/mnt/localstorage/ramm/data/Hari_volcano/Jeehye/New_for_paper/ATF4_targets_CBlist/ATF4Targets.txt"
-file2_path <- "/mnt/localstorage/ramm/data/Hari_volcano/Jeehye/Motorneurons/ATF4_targets_MNlist/DEG_TR_WT_Week4_6_100_Batch1_exclude_PCG.DEG.txt"
+file1_path <- "ATF4Targets.txt"
+file2_path <- "DEG.txt"
 
 df1 <- read.delim(file1_path, sep = "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE)
 df2 <- read.delim(file2_path, sep = "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE)
